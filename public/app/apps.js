@@ -53,7 +53,7 @@ define(['menuTree'], function(){
         css :  "menu",
         activeTitle :  true,
         select :  true,
-        url:"/twig_template/api/menu",
+        url:"/api/menu",
         ready : function(){
             var state = restore_state();
             this.addCss(state.select[0], "webix_selected");
@@ -72,7 +72,7 @@ define(['menuTree'], function(){
                 // var storeInit = JSON.parse(xhr.response);
                 var item = this.getItem(id);
                 if (!item.$count){
-                    window.location.href = "/twig_template/"+item.url;
+                    window.location.href = "/"+item.url;
                     webix.storage.local.put("menuState", this.getState());
                 }
             },
@@ -90,7 +90,7 @@ define(['menuTree'], function(){
             { height : 46, id :  "person_template", css :  "header_person", borderless : true, width :  180, data :  {id : 3,name :  "Administrator"},
                 template :  function(obj){
                     var html =  "<div style='height : 100%;width : 100%;' onclick='webix.$$(\"profilePopup\").show(this)'>";
-                    html += "<img class='photo' src='/twig_template/assets/imgs/photos/"+obj.id+".png' /><span class='name'>"+obj.name+"</span>";
+                    html += "<img class='photo' src='/assets/imgs/photos/"+obj.id+".png' /><span class='name'>"+obj.name+"</span>";
                     html += "<span class='webix_icon fa-angle-down'></span></div>";
                     return html;
                 }

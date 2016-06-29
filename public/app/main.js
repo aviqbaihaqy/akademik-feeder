@@ -1,5 +1,5 @@
 require.config({
-	baseUrl: "/panada_twig/public/app",
+	baseUrl: "/app",
 	paths: {
 		// "webix": "/codebase/webix",
 		"menuTree":"views/webix/menutree",
