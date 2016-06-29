@@ -1,0 +1,14 @@
+{
+  "name": "likefeederdikti",
+  "version": "2.0.0",
+  "authors": [
+    "Baihaqy Aviq <aviq.baihaqy@gmail.com>"
+  ],
+  "description": "sistem informasi akademik like feeder dikti",
+  "componentsDirectory": "assets/plugins",
+  "dependencies": {
+    "webix": "*",
+    "bootstrap-css-only": "*",
+    "requirejs": "*"
+  }
+}
