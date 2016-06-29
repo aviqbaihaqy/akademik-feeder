@@ -3,7 +3,7 @@
 sistem informasi support feeder dikti
 
 #getting started
-1. install panadaframework V1.0.0
+1. ~~install panadaframework V1.0.0~~
 2. clone repository
 3. run command: composer install/update
 4. run command: bower install (require nodejs installed)
