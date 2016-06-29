@@ -10,7 +10,7 @@ sistem informasi support feeder dikti
 5. create database
 6. import table structure: akademik-feeder-struktur.sql
 7. import data: akademik-feeder-refdata.sql
-8. config database: edit file "config/database.php"
+8. config database: edit file "app/config/database.php"
 9. enjoy... :D
 
 #credit
