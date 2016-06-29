@@ -20,7 +20,10 @@
     "require": {
         "php": ">=5.3.0",
         "twig/twig": "^1.24",
-        "dhtmlx/connector-php": "^3.0"
+        "dhtmlx/connector-php": "^3.0",
+        "twig/extensions": "^1.2",
+        "fergusean/nusoap": "^0.9.5",
+        "phpoffice/phpexcel": "^1.8"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
