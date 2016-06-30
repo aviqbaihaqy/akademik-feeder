@@ -5,7 +5,7 @@ sistem informasi support feeder dikti
 #getting started
 1. ~~install panadaframework V1.0.0~~
 2. clone repository and cd akademik-feeder
-3. run command: composer install/update
+3. run command: composer install --no-dev
 4. run command: bower install (require nodejs installed)
 5. create database
 6. import table structure: akademik-feeder-struktur.sql
