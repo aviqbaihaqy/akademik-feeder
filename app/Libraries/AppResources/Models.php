@@ -13,7 +13,7 @@ class Models extends Resources\Validation
     {
         parent::__construct();
         $this->db = new Resources\Database;
-        $this->conn = new Connector\JSONDataConnector($this->db, "MySQi");
+        $this->conn = new Connector\JSONDataConnector($this->db, "MySQLi");
         $this->uuid = new Libraries\UUID;
         $this->session = new Resources\Session;
         $this->request = new Resources\Request;

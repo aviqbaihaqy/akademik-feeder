@@ -13,6 +13,8 @@ sistem informasi support feeder dikti
 8. config database: edit file "app/config/database.php"
 9. run command: php -S localhost:8080 -t public
 10. go to http://localhost:8080/test
+11. halaman admin: http://localhost:8080/adm
+user: admin , pass: admin
 
 #credit
 1. panadaframework
