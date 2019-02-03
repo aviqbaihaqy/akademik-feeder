@@ -24,6 +24,6 @@ define(function(){
 		],
 		select:"row",
 		tooltip:true,
-		url:"/twig_template/admin/kuliah/kelaslst"
+		url:"./kelaslst"
 	}
 });
